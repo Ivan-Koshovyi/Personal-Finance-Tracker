@@ -1,4 +1,4 @@
-💰 Personal Finance Tracker
+# 💰 Personal Finance Tracker
 
 A console-based personal finance management application built with Java Core.
 
@@ -6,7 +6,7 @@ The application helps users manage their personal finances by tracking income an
 
 ⸻
 
-✨ Features
+# ✨ Features
 
 * ➕ Add income
 * ➖ Add expense
@@ -23,7 +23,7 @@ The application helps users manage their personal finances by tracking income an
 
 ⸻
 
-🛠️ Technologies
+# 🛠️ Technologies
 
 * Java Core
 * Object-Oriented Programming (OOP)
@@ -35,7 +35,7 @@ The application helps users manage their personal finances by tracking income an
 
 ⸻
 
-📂 Project Structure
+# 📂 Project Structure
 
 src/
 ├── model/
@@ -47,7 +47,7 @@ src/
 
 ⸻
 
-💾 Data Storage
+# 💾 Data Storage
 
 The application stores all data in a local file.
 
@@ -60,7 +60,7 @@ The balance is automatically updated whenever a transaction is added, edited, or
 
 ⸻
 
-📌 Main Menu
+# 📌 Main Menu
 
 1. Add Income
 2. Add Expense
@@ -75,7 +75,7 @@ The balance is automatically updated whenever a transaction is added, edited, or
 
 ⸻
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
 * Financial goals
 * Monthly budgeting
@@ -88,7 +88,7 @@ The balance is automatically updated whenever a transaction is added, edited, or
 
 ⸻
 
-🎯 Purpose
+# 🎯 Purpose
 
 This project is designed to practice Java Core concepts by building a real-world application using clean architecture, object-oriented programming, collections, file handling, and business logic.
 
