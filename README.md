@@ -1,53 +1,66 @@
-Personal Finance Tracker
+💰 Personal Finance Tracker
 
-A console-based personal finance management application built with Java Core. The project allows users to track income and expenses, monitor their current balance, and manage financial records without using a database.
+A console-based personal finance management application built with Java Core.
 
-Features
+The application helps users manage their personal finances by tracking income and expenses, monitoring the current balance, and viewing transaction history. All data is stored locally in a file, allowing users to continue working with their financial records between application launches.
 
-* Add income transactions
-* Add expense transactions
-* View all transactions
-* Edit existing transactions
-* Delete transactions
-* Search transactions
-* Sort transactions
-* View current balance
-* Display financial statistics
-* Save and load data from a file
-* Input validation and exception handling
+⸻
 
-Technologies
+✨ Features
+
+* ➕ Add income
+* ➖ Add expense
+* 📋 View all transactions
+* ✏️ Edit transactions
+* 🗑️ Delete transactions
+* 🔍 Search transactions
+* 📊 Sort transactions
+* 💵 View current balance
+* 📈 Financial statistics
+* 💾 Save and load data from a file
+* ✅ Input validation
+* ⚠️ Exception handling
+
+⸻
+
+🛠️ Technologies
 
 * Java Core
 * Object-Oriented Programming (OOP)
 * Collections Framework
 * Java File I/O
-* Exception Handling
-* LocalDate / LocalDateTime
 * Stream API
+* LocalDate
+* Exception Handling
 
-Project Structure
+⸻
+
+📂 Project Structure
 
 src/
-├── model
-├── repository
-├── service
-├── ui
-├── util
+├── model/
+├── repository/
+├── service/
+├── ui/
+├── util/
 └── Main.java
 
-Data Storage
+⸻
+
+💾 Data Storage
 
 The application stores all data in a local file.
 
-The file contains:
+Stored data includes:
 
 * Current balance
 * Transaction history
 
-Every time a transaction is added, edited, or deleted, the current balance is updated and the data is saved.
+The balance is automatically updated whenever a transaction is added, edited, or deleted.
 
-Main Menu
+⸻
+
+📌 Main Menu
 
 1. Add Income
 2. Add Expense
@@ -60,17 +73,25 @@ Main Menu
 9. Current Balance
 0. Exit
 
-Future Improvements
+⸻
+
+🚀 Future Improvements
 
 * Financial goals
-* Monthly budget planning
+* Monthly budgeting
 * Recurring transactions
-* Multiple accounts (Cash, Card, Savings)
+* Multiple accounts
+* JavaFX GUI
 * Database integration
-* JavaFX desktop interface
 * Spring Boot REST API
 * Web application
 
-Purpose
+⸻
 
-The main goal of this project is to practice Java Core by implementing a real-world application using clean architecture, file storage, and object-oriented design principles.
+🎯 Purpose
+
+This project is designed to practice Java Core concepts by building a real-world application using clean architecture, object-oriented programming, collections, file handling, and business logic.
+
+The project is intended to evolve over time:
+
+Java Core → File Storage → Database → Spring Boot → Web Application
